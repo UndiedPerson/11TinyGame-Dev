@@ -10,7 +10,7 @@
 * **การตั้งค่า Unattended Installation:** ไฟล์นี้ถูกตั้งค่าสำหรับการติดตั้งแบบ Unattended ซึ่งจะช่วยให้กระบวนการติดตั้ง Windows ทำงานได้โดยอัตโนมัติ โดยที่ Product Key ยังคงต้องใส่ด้วยตนเองในระหว่างหรือหลังการติดตั้ง
 * **ปิดการตรวจสอบระบบ (Bypass System Requirement Check):** มีการตั้งค่าใน Registry เพื่อข้ามการตรวจสอบข้อกำหนดขั้นต่ำของ Windows 11 สำหรับ TPM 2.0, Secure Boot, RAM, Storage และ Processor (CPU) ทำให้สามารถติดตั้งบนฮาร์ดแวร์ที่ไม่รองรับได้อย่างง่ายดาย
 
-* **#If BypassCPUCheck not work  You should fix add regedit when install at HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig Also set value to 1
+* **If BypassCPUCheck not work  You should fix add regedit when install at HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig Also set value to 1
 ---
 
 # README - Windows 11 Custom (Tiny11 Base)
@@ -25,10 +25,10 @@ This Readme file is for a customized Windows 11 image, based on Tiny11 and optim
 * **Unattended Installation Setup:** This file is configured for unattended installation, streamlining the Windows setup process. The Product Key still needs to be entered manually during or after installation.
 * **Bypassed System Requirement Checks:** Registry settings have been added to bypass Windows 11's minimum system requirements for TPM 2.0, Secure Boot, RAM, Storage, and Processor (CPU). This facilitates installation on unsupported hardware.
 
-* **#If BypassCPUCheck not work  You should fix add regedit when install at HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig Also set value to 1
+* **If BypassCPUCheck not work  You should fix add regedit when install at HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig Also set value to 1
 
 
-##Test Result On Acer Predator Helios300 G3-571
+## Test Result On Acer Predator Helios300 G3-571
 CPU Core i7 7thGen GPU GTX1060 6GB Ram16GB Storage Nvme.2 250GB SSD Sata 500GB
 
 ##Test Record
