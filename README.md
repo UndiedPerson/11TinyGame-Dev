@@ -32,8 +32,8 @@ This Readme file is for a customized Windows 11 image, based on Tiny11 and optim
 CPU Core i7 7thGen GPU GTX1060 6GB Ram16GB Storage Nvme.2 250GB SSD Sata 500GB
 
 ## Test Record
-* **When Boot Cpu Speed Average At 15-35 % (Be swing to 70-90 a moment) memmory 35%**
-* **After Boot CPU 9-15%( Be swing to 30-50 a moment) memory 33%** 
+* **When Boot Cpu Speed Average At 15-35 % (Be swing to 70-90% a moment) memmory 35%**
+* **After Boot CPU 9-15%( Be swing to 30-50% a moment) memory 33%** 
 * **Idle CPU 3-9% memory 33%**
 * **Edge Tab CPU 5-12% memory 35%**
 
