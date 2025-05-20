@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>05/19/2025 23:04:37</Date>
+	<AppInfo>
+		<Version>2025.4.10406</Version>
+		<Licensed>No</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 CoreSingleLanguage 22H2 x64 - 10.0.19045.5854 (en-GB)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Core 24H2 x64 - 10.0.26100.1742 (en-GB)</Version>
+		<GUID>{526803E1-7CA1-424F-9784-507E337A7091}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>clipchamp.clipchamp</c>
+		<c>microsoft.bingnews 'Microsoft News'</c>
+		<c>microsoft.bingsearch 'Microsoft Bing Search'</c>
+		<c>microsoft.bingweather 'MSN Weather'</c>
+		<c>microsoft.gethelp 'Get Help'</c>
+		<c>microsoft.microsoftsolitairecollection 'Solitaire &amp; Casual Games'</c>
+		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
+		<c>microsoft.outlookforwindows 'Outlook for Windows'</c>
+		<c>microsoft.paint 'Paint'</c>
+		<c>microsoft.powerautomatedesktop 'Power Automate'</c>
+		<c>microsoft.rawimageextension 'Raw Image Extension'</c>
+		<c>microsoft.screensketch 'Snipping Tool'</c>
+		<c>microsoft.storepurchaseapp 'Store Experience Host'</c>
+		<c>microsoft.todos 'Microsoft To Do'</c>
+		<c>microsoft.webmediaextensions 'Web Media Extensions'</c>
+		<c>microsoft.windows.photos 'Microsoft Photos'</c>
+		<c>microsoft.windowsalarms 'Windows Clock'</c>
+		<c>microsoft.windowsappruntime.1.3 'WindowsAppRuntime.1.3'</c>
+		<c>microsoft.windowscalculator 'Windows Calculator'</c>
+		<c>microsoft.windowscamera 'Windows Camera'</c>
+		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
+		<c>microsoft.windowsnotepad 'Windows Notepad'</c>
+		<c>microsoft.windowssoundrecorder 'Windows Sound Recorder'</c>
+		<c>microsoft.windowsterminal 'Windows Terminal'</c>
+		<c>microsoft.xbox.tcui 'Xbox TCUI'</c>
+		<c>microsoft.xboxgamingoverlay 'Game Bar'</c>
+		<c>microsoft.xboxspeechtotextoverlay 'Game Speech Window'</c>
+		<c>microsoft.yourphone 'Phone Link'</c>
+		<c>microsoft.zunemusic 'Windows Media Player'</c>
+		<c>microsoftcorporationii.microsoftfamily 'Microsoft Family'</c>
+		<c>microsoftcorporationii.quickassist 'Quick Assist'</c>
+		<c>microsoftwindows.client.webexperience 'Windows Web Experience Pack'</c>
+		<c>microsoftwindows.crossdevice 'Cross Device Experience Host'</c>
+		<c>msteams 'Microsoft Teams'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="false">
+		<ComponentFeatures>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="yes">Bluetooth</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="yes">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">EA Anti-Cheat</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NetworkDiscovery</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="yes">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<c>NetFx3</c>
+		<c>Microsoft-Windows-Subsystem-Linux</c>
+	</Features>
+	<Packages>
+		<Options>
+			<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
+			<OptimizeAppX>false</OptimizeAppX>
+			<UpdateBootManager>false</UpdateBootManager>
+		</Options>
+	</Packages>
+	<Commands>
+		<PostUpdates>
+			</PostUpdates>
+	</Commands>
+	<Drivers>
+		<Options>
+			<ReuseDriverCache>false</ReuseDriverCache>
+			<ShowHidden>false</ShowHidden>
+		</Options>
+	</Drivers>
+	<Unattended mode="0">
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<DynamicUpdate>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>1</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<ProductKey>
+						<Key></Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings>
+			<c name="Personalize/AppsUseLightTheme" type="DWORD" data="0" description="Set default app mode to Dark" />
+			<c name="Personalize/SystemUsesLightTheme" type="DWORD" data="0" description="Set default system mode to Dark" />
+			<c name="Desktop/AutoArrangement" type="DWORD" data="0" description="Disable auto-arrange icons" />
+			<c name="Desktop/GridAlign" type="DWORD" data="0" description="Disable align icons to grid" />
+			<c name="Desktop/SaveSettings" type="DWORD" data="1" description="Save desktop icon layout" />
+			<c name="Control Panel/Desktop/WindowArrangementActive" type="DWORD" data="0" description="Disable Aero Shake" />
+			<c name="Control Panel/Desktop/DragFullWindows" type="DWORD" data="1" description="Show window contents while dragging" />
+			<c name="Control Panel/Desktop/MenuShowDelay" type="DWORD" data="400" description="Menu show delay (default)" />
+			<c name="Control Panel/Mouse/MouseHoverTime" type="DWORD" data="400" description="Mouse hover time (default)" />
+			<c name="Control Panel/Desktop/LowPowerActive" type="DWORD" data="0" description="Disable low power animation" />
+			<c name="Control Panel/Desktop/UserPreferencesMask" type="BINARY" data="9e307800" description="Disable various visual effects" />
+			<c name="Explorer/AlwaysShowThumbnails" type="DWORD" data="1" description="Always show thumbnails" />
+			<c name="Explorer/ShowSuperHidden" type="DWORD" data="0" description="Don't show super hidden files by default" />
+			<c name="Explorer/HideFileExt" type="DWORD" data="0" description="Show file extensions" />
+			<c name="Explorer/NoDriveTypeAutoRun" type="DWORD" data="0x00000091" description="Disable Autoplay for all drive types" />
+			<c name="System/EnableSmartScreen" type="DWORD" data="0" description="Disable SmartScreen" />
+			<c name="System/ConsentPromptBehaviorAdmin" type="DWORD" data="5" description="Do not prompt for elevation on secure desktop for administrators" />
+			<c name="System/ConsentPromptBehaviorUser" type="DWORD" data="3" description="Prompt for credentials on secure desktop for standard users" />
+			<c name="System/FilterAdministratorToken" type="DWORD" data="1" description="Use User Account Control (UAC)" />
+			<c name="System/EnableLUA" type="DWORD" data="1" description="Enable User Account Control (UAC)" />
+			<c name="Update/AutoUpdateCheckPeriod" type="DWORD" data="1" description="Check for updates every 1 day" />
+			<c name="Update/NoAutoRebootWithLoggedOnUsers" type="DWORD" data="1" description="Do not automatically reboot if users are logged on" />
+			<c name="Update/AUOptions" type="DWORD" data="2" description="Notify for download and notify for install" />
+			<c name="Setup/LabConfig/BypassTPMCheck" type="DWORD" data="1" description="Bypass TPM 2.0 Check" />
+			<c name="Setup/LabConfig/BypassSecureBootCheck" type="DWORD" data="1" description="Bypass Secure Boot Check" />
+			<c name="Setup/LabConfig/BypassRAMCheck" type="DWORD" data="1" description="Bypass RAM Check" />
+			<c name="Setup/LabConfig/BypassStorageCheck" type="DWORD" data="1" description="Bypass Storage Check" />
+			<c name="Setup/LabConfig/BypassCPUCheck" type="DWORD" data="1" description="Bypass CPU Check" />
+		</Settings>
+		<Services>
+			<c name="DiagTrack" state="Disabled" />
+			<c name="dmwappushservice" state="Disabled" />
+			<c name="WerSvc" state="Disabled" />
+			<c name="WSearch" state="Manual" />
+			<c name="SysMain" state="Manual" />
+			<c name="MapsBroker" state="Disabled" />
+			<c name="XboxGipSvc" state="Disabled" />
+			<c name="XboxNetApiSvc" state="Disabled" />
+			<c name="XboxSvc" state="Disabled" />
+			<c name="Print Spooler" state="Automatic" />
+			<c name="Audiosrv" state="Automatic" />
+			<c name="RpcSs" state="Automatic" />
+			<c name="DcomLaunch" state="Automatic" />
+			<c name="Wuauserv" state="Automatic" />
+			<c name="BITS" state="Manual" />
+			<c name="LanmanWorkstation" state="Automatic" />
+			<c name="LanmanServer" state="Manual" />
+			<c name="Dhcp" state="Automatic" />
+			<c name="DNS Client" state="Automatic" />
+			<c name="Netman" state="Automatic" />
+			<c name="NlaSvc" state="Automatic" />
+			<c name="RasMan" state="Manual" />
+			<c name="MpsSvc" state="Automatic" />
+			<c name="SecurityHealthService" state="Automatic" />
+			<c name="PlugPlay" state="Disabled" />
+			<c name="DeviceInstall" state="Disabled" />
+		</Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks>
+			<c name="\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" state="Disabled" />
+			<c name="\Microsoft\Windows\Application Experience\ProgramDataUpdater" state="Disabled" />
+			<c name="\Microsoft\Windows\Customer Experience Improvement Program\Consolidator" state="Disabled" />
+			<c name="\Microsoft\Windows\Customer Experience Improvement Program\Uploader" state="Disabled" />
+			<c name="\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" state="Disabled" />
+			<c name="\Microsoft\Windows\Maintenance\WinSAT" state="Disabled" />
+			<c name="\Microsoft\Windows\NetTrace\GatherNetworkInfo" state="Disabled" />
+			<c name="\Microsoft\Windows\Shell\FamilySafetyMonitor" state="Disabled" />
+			<c name="\Microsoft\Windows\Shell\FamilySafetyRefreshTask" state="Disabled" />
+			<c name="\Microsoft\Windows\UpdateOrchestrator\Reboot" state="Disabled" />
+			<c name="\Microsoft\Windows\DeviceDirectoryClient\DeviceDataRetriever" state="Disabled" />
+			<c name="\Microsoft\Windows\DeviceDirectoryClient\DeviceSync" state="Disabled" />
+		</ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+		</ImageTasks>
+		<AutoIsoFile>NTLite_Custom.iso</AutoIsoFile>
+		<AutoIsoLabel>NTLite_Custom</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+	</ApplyOptions>
+	<Execution BeforeLogonMode="0">
+		<Remove></Remove>
+		<Change></Change>
+		<Add></Add>
+	</Execution>
+	<Registry></Registry>
+</Preset>
